@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Contacto | Salón de eventos Pukllay</title>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/font.css">
+  </head>
+  <body>
+   <header class="main-header">
+       <div class="container container--flex">
+           <div class="logo-container column column--50">
+               <h1 class="logo">Salón de eventos Pukllay</h1>
+           </div>
+           <div class="main-header__contactInfo column column--50">
+               <p class="main-header__contactInfo__phone">
+                   <span class="icon-phone">42-1208</span>
+               </p>
+               <p class="main-header__contactInfo__whatsapp">
+                   <span class="icon-whatsapp">+51 950167644</span>
+               </p>
+               <p class="main-header__contactInfo__address">
+                   <span class="icon-location">Av. José María Argueda 302 Andahuaylas</span>
+               </p>
+           </div>
+       </div>
+   </header>
+   <nav class="main-nav">
+       <div class="container container--flex">
+           <span class="icon-menu" id="btnmenu"></span>
+           <ul class="menu" id="menu">
+               <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+               <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+               <li class="menu__item"><a href="galeria.html" class="menu__link">Galería</a></li>
+               <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
+           </ul>
+           <div class="social-icon">
+               <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+               <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+               <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+           </div>
+       </div>
+   </nav>
+   
+   <section class="banner">
+       <img src="img/banner-contact.jpg" alt="" class="banner__img">
+       <div class="banner__content">Déjenos un mensaje</div>
+   </section>
+   
+   <main class="main">
+       <section class="group contact">
+           <h2 class="group__title">Contáctanos</h2>
+           <div class="container container--flex">
+               <div class="contact-information column column--50">
+                   <h3 class="column__title">Información de contácto</h3>
+                   <p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores totam amet excepturi, cum ad. Nostrum illum cum sint. Impedit veniam, explicabo veritatis dolor.</p>
+                   <p class="column__txt"><span class="icon-phone"></span>Télefono: 42-1208</p>
+                   <p class="column__txt"><span class="icon-whatsapp"></span>Whatsapp: +51 950-167-644</p>
+                   <p class="column__txt"><span class="icon-location"></span>Av. José María Arguedas-Andahuaylas</p>
+                   <p class="column__txt"><span class="icon-mail"></span>consultas@sepukllay.com</p>
+                   <div class="social-icon">
+                       <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                       <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                       <a href="" class="social-icon__link"><span class="icon-mail"></span></a>   
+                   </div>
+               </div>
+               <form action="enviar-prueba.php" method="post" class="formulario column column--50">
+                 <label for="" class="formulario__label">Nombre:</label>
+                 <input type="text" class="formulario__input-txt" name="nombre">
+                 <label for="" class="formulario__label">Correo</label>
+                 <input type="text" class="formulario__input-txt" name="correo"> 
+                 <label for="" class="formulario__label">Teléfono:</label>
+                 <input type="text" class="formulario__input-txt" name="telefono">
+                 <label for="" class="formulario__label">Mensaje:</label>
+                 <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+                 <input type="submit" class="btn formulario__btn" value="Enviar">    
+               </form>
+           </div>
+       </section>
+   </main>
+   
+   <footer class="main-footer">
+           <div class="container container--flex">
+               <div class="column column--33">
+                  <h2 class="column__title">¿Por qué contratarnos?</h2>
+                  <p class="column__txt">Somos el único salón de eventos de Andahuaylas que se toma enserio tus necesidades</p> 
+               </div>
+               <div class="column column--33">
+                  <h2 class="column__title">Contáctanos</h2>
+                  <p class="column__txt">Av. José María Arguedas 302 - Andahuaylas</p> 
+                  <p class="column__txt">Telefono 950 167 644</p> 
+                  <p class="column__txt">consultas@salondeventospukllay.com</p> 
+               </div>
+               <div class="column column--33">
+                  <h2 class="column__title">Síguenos en nuestras redes sociales</h2>
+                  <p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p> 
+                  <p class="column__txt"><a href="" class="icon-twitter">Síguenos en twitter</a></p> 
+                  <p class="column__txt"><a href="" class="icon-youtube">Visita nuestro canal</a></p> 
+               </div>
+           </div>
+           <p class="copy">&copy; 2019 Salón de eventos Pukllay | Todos los derechos reservados</p>
+       </footer>
+   <script src="js/menu.js"></script>
+   <script src="js/modal.js"></script>
+  </body>
+</html>
